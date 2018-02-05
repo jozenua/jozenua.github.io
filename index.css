@@ -25,8 +25,8 @@ nav a {
     text-decoration: none;
 }
 
-a::hover {
-    cursor: cell;
+a:hover {
+    cursor: -webkit-grabbing;
 }
 
 nav ul {
@@ -35,8 +35,8 @@ nav ul {
     font-size: 2rem;
 }
 
-nav li::first-child {
-    margin-left: 1rem;
+nav li:first-child {
+    margin-right: 1rem;
 }
 
 nav li {
