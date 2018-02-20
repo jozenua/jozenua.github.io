@@ -4,8 +4,15 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.container {
+    width: 90%;
+    min-width: 10%;
+    min-height: 10%;
+}
+
 h1, h3 {
     text-align: center;
+    margin-left: 7%;
 } 
 
 h1 {
@@ -19,6 +26,9 @@ h1 {
 nav {
     float: right;
     /*background-color: #1A237E; */
+    min-width: 20%;
+    max-height: 100%;
+    width: 40%;
 }
 
 nav a {
@@ -30,19 +40,13 @@ a:hover {
 }
 
 nav ul {
-    margin-right: 20rem;
-    margin-top: 10rem;
+    margin-right: 10%;
+    margin-top: 40%;
     font-size: 2rem;
 }
 
-nav li:first-child {
-    margin-left: 1rem;
-}
-
 nav li {
-    border-radius: 100%;
-    margin-bottom: 1rem;
-    padding: 2rem;
+    margin-bottom: 4rem; 
 }
 
 nav p {
@@ -50,16 +54,14 @@ nav p {
 }
 
 img {
-    position: relative;
-    float: left;
-    height: 300;
-    width: 300;
-    margin-left: 5rem;
-    margin-top: 1rem;
+    float: left; 
+    margin-left: 3%;
+    margin-top: 3%;
+    max-width: 100%;
+    width: 50%;
+    height: 35rem;
 }
 
 
    /* try using flexbox to adjust left and right 
-    try using flexbox to arrange all the contents
-
-*/
+    try using flexbox to arrange all the contents */

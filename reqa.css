@@ -17,16 +17,16 @@ h1 {
     align-items: center;
 }
 
-#box {
+.box {
     margin-left: 2rem;
     width: 10rem;
-
+    margin-bottom: 3rem;
+    margin-top: -1rem;
 }
 
 h3 {
     margin-left: 2rem;
     text-align: center;
-    margin-bottom: 3rem;
 }
 
 a {
