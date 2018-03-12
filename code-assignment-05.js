@@ -1,11 +1,11 @@
 let project1 = {
     id: 1,
-    title: 'Web Map 1',
+    title: 'Assignment 1',
     hasThumbnail: true
 }
 let project2 = {
     id: 2,
-    title: 'Web App and Web Map 2',
+    title: 'Assignment 2',
     hasThumbnail: false
 }
 
@@ -16,10 +16,10 @@ let projects = [
 
 for (let i = 0; i < projects.length; i++) {
     console.log('Element ' + i + ' title: ' + projects[i].title);
-    console.log('images/ss-project-' + projects[i].id + '.png');
+    console.log(projects[i].id+'.png');
 
     if (projects[i].hasThumbnail === true) {
-        console.log('images/ss-project-' + projects[i].id + '.png');
+        console.log(projects[i].id + '.png');
     }
 }
 
